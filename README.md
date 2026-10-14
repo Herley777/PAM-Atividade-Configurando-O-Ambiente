@@ -4,8 +4,8 @@
 -  Print 3 — Localização do SDK.
 -  Print 4 — Verificação dos componentes.
 -  Print 5 — Teste do ADB e lista de emuladores.
-¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
+||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
 Etapa 1 — Verificação inicial dos pré-requisitos
