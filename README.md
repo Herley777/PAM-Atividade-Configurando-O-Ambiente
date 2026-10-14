@@ -1,3 +1,13 @@
+*Checklist atualizado*
+-  Print 1 — Verificação inicial dos programas.
+-  Print 2 — Verificação inicial do Android.
+-  Print 3 — Localização do SDK.
+-  Print 4 — Verificação dos componentes.
+-  Print 5 — Teste do ADB e lista de emuladores.
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+
+
+
 Etapa 1 — Verificação inicial dos pré-requisitos
 
 Objetivo: verificar se as ferramentas necessárias para o desenvolvimento mobile estavam instaladas no computador.
