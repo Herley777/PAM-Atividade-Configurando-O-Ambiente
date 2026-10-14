@@ -23,7 +23,7 @@ Evidência: captura de tela do PowerShell com os resultados dos comandos.
 ------------------------------------------------------------------------------------------------------------------------
 
 
-### Etapa 2 — Verificação das ferramentas do Android
+ Etapa 2 — Verificação das ferramentas do Android
 
 **Objetivo:** verificar a disponibilidade do Android SDK e de suas ferramentas de linha de comando.
 
@@ -37,7 +37,7 @@ Evidência: captura de tela do PowerShell com os resultados dos comandos.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-### Etapa 3 — Localização do Android SDK
+Etapa 3 — Localização do Android SDK
 
 **Objetivo:** verificar se o Android SDK já estava presente no computador.
 
@@ -53,7 +53,7 @@ Evidência: captura de tela do PowerShell com os resultados dos comandos.
 ------------------------------------------------------------------------------------------------------------------------
 
 
-### Etapa 4 — Inspeção do Android SDK
+ Etapa 4 — Inspeção do Android SDK
 
 **Objetivo:** verificar quais ferramentas do Android já estavam instaladas.
 
@@ -64,6 +64,33 @@ Evidência: captura de tela do PowerShell com os resultados dos comandos.
 **Conclusão:** o computador já possui componentes importantes do Android SDK. É necessário verificar as ferramentas de linha de comando e configurar o acesso pelo terminal.
 
 **Evidência:** captura de tela dos resultados dos comandos de verificação.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Etapa 5 — Concluída
+
+Teste do ADB e identificação dos emuladores
+Comando utilizado para testar o ADB:
+& "$Sdk\platform-tools\adb.exe" --version
+
+
+Resultado registrado:
+- ADB: 1.0.41
+- Versão: 36.0.2-14143358
+- Caminho: C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe
+- Sistema: Windows 10.0.26200
+Comando utilizado para listar os emuladores:
+& "$Sdk\emulator\emulator.exe" -list-avds
+
+
+Emuladores encontrados:
+1. Medium_Phone
+2. Medium_Phone_API_36.1
+3. Small_Phone
+
 
 
 
